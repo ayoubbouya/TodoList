@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: rgb(26, 26, 26);
+}
+/* title */
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: 40px;
+    text-align: center;
+    color: floralwhite;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.style{
+    color: gold;
+}
+
+/* first input  */
+
+.input_div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.input_div input{
+    padding: 10px 20px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.input_div .addButton {
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    width: 50px;
+    font-size: 20px;
+    background-color: gold;
+    cursor: pointer;
+}
+
+/* container  */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .item {
+    padding: 10px;
+    border-bottom: 3px solid gold;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.container .item .item_input{
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container .item .editButton ,.removeButton{
+    background: none;
+    outline: none;
+    color: rgb(6, 195, 6);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container .item .removeButton{
+    color: red;
+}
